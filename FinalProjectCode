@@ -1,0 +1,510 @@
+<html      
+<div class="container-fluid"><header>  
+<a href="#"> <img class="me-image" alt="Header" src="https://scontent.xx.fbcdn.net/v/t1.0-9/10422526_10152741352405981_2813359192425559171_n.jpg?oh=e70536f17492b107d7ee7ef963c4dd6d&oe=58B1DBEA"> 
+</a></header><h20>(Above) Setting up for last Lesser Humans show at House of Blues 5/15.</h20>  </div>    
+<p>  
+<h6> Welcome to the story of my love of music. They say there's a lot in a name. So I thought it would be fun to let you enter your name in the text box and let it tell you a band to check out based on your name. It's science. Or magic. Or both.</h6>  
+<h4>Which <div>Band <div>Are <div>You?</h4>  
+<h5>
+Enter Your Name <div>and Click Submit
+</h5>    
+
+<p id="results"></p>    
+<input id="name"> </input>    
+<button onclick="javascript:pickBand();" id="submit">Submit</button>    
+</p>
+    <script>      
+		var bandList=new Object();      
+		bandList.a="ALL";      
+		bandList.b="Built to Spill";      
+		bandList.c="Jawbreaker";      
+		bandList.d="Burning Airlines";      
+		bandList.e="Pixies";      
+		bandList.f="NoFX";      
+		bandList.g="Lagwagon";      
+		bandList.h="Jawbox";      
+		bandList.i="The Minutemen";      
+		bandList.j="Sleater-Kinney";      
+		bandList.k="Hum";      
+		bandList.l="Wretch Like Me";      
+		bandList.m="the Descendents";      
+		bandList.n="The Replacements";      
+		bandList.o="The Cardiacs";      
+		bandList.p="Sunny Day Real Estate";      
+		bandList.q="Nirvana";      
+		bandList.r="The Smiths";      
+		bandList.s="the Weakerthans";      
+		bandList.t="Screeching Weasel";      
+		bandList.u="Archers of Loaf";      
+		bandList.v="the Refused";      
+		bandList.w="Beach Boys";      
+		bandList.x="Hole";      
+		bandList.y="The Living End"      
+		bandList.z="Frank Turner and the Sleeping Souls";
+      
+			function pickBand() {       
+			//getting value of name input      
+			var userName=document.getElementById("name").value;        
+			//getting the first letter of that name        
+			var firstLetter=userName.charAt(0);        
+			firstLetter=firstLetter.toLowerCase();        
+			//getting the lower case value        
+			var band=bandList[firstLetter];        
+			document.getElementById("results").innerHTML=band;      };    
+			</script>
+</head>
+    <h1>The Story Begins...And Rambles A Bit</h1></div>
+		<style>  
+		body{    background-color:black;    
+		background-image:url(https://scontent.xx.fbcdn.net/v/t1.0-9/10174794_10152049370080981_4471954043757155456_n.jpg?oh=68fcd6f04674db188708481411a5379c&oe=58EC82A2);    color:white;  }  
+		b{    margin-top:45%;      
+		margin-right:45%;      
+		margin-bottom:45%;      
+		margin-left:42.5%;    
+		}  
+		p{    color: red;    
+		background-color: black;    
+		Font-size: 18px;    
+		Font-family: sans-serif; 
+		}
+  p2{    color:blue;    
+	background-color:black;    
+	font-size: 30px;    
+	font-family: comic-sans;
+    margin-top:0%;    
+		margint-right:0%;    
+		margin-bottom:0%;    
+		margin-left: 18%;} 
+		}
+  p3{    margin-top:20%;    
+	margint-right:0%;    
+	margin-bottom:20%;    
+	margin-left: 0%;    
+	color:silver;
+	background-color:black;
+	font-size: 16px;
+	font-family: sans-serif;
+	}
+  p4{    color:silver;
+	background-color:black;
+	font-size: 18px;
+	font-family:monospace; 
+	}
+  p5{color:yellow;
+	background-color:black;
+	margin-top:5%;
+	margint-right:0%;
+	margin-bottom:0%;
+	margin-left: 20%;
+	}
+  p6{    margin-top:0%;
+	margin-right:30%;    
+	margin-bottom:0%;    
+	margin-left:30%;   
+	border: 1px solid-black; 
+	color:silver; 
+	background-color:black;
+	font-size:12px;   
+	font-family:sans-serif; 
+	}  
+	p7{    margin-top:0%;
+	margin-right:0%;
+	margin-bottom:0%;
+	margin-left:30%;  
+	border: 1px solid-black;
+	color:silver;   
+	background-color:black;
+	font-size:12px;
+	font-family:sans-serif;  
+	}
+	p8{    margin-top:0%;
+	margin-right:0%;  
+	margin-bottom:0%;  
+	margin-left:27%; 
+	border: 1px solid-black;
+	color:silver; 
+	background-color:black;
+	font-size:12px;  
+	font-family:sans-serif;
+	} 
+	p9{color:yellow;
+	background-color:black; 
+	margin-top:0%;  
+	margint-right:0%;
+	margin-bottom:0%;
+	margin-left: 21.5%;
+	}
+  p10{color:yellow;  
+	background-color:black;
+	margin-top:0%; 
+	margint-right:0%;  
+	margin-bottom:0%; 
+	margin-left: 20%;
+	}
+  p11{color:yellow;  
+	background-color:black;
+	margin-top:0%;  
+	margint-right:0%;  
+	margin-bottom:0%;  
+	margin-left: 22%;
+	}
+  p12{color:yellow;   
+	background-color:black;
+	margin-top:0%;    
+	margint-right:0%; 
+	margin-bottom:0%; 
+	margin-left: 26%;
+	} 
+	p13{color:silver; 
+	background-color:black;
+	margin-top:0%;    
+	margint-right:0%; 
+	margin-bottom:0%; 
+	margin-left: 35%; 
+	}  
+	p15{    color:white; 
+	background-color:black;
+	font-size: 14px;  
+	}
+	h1{    color: black;
+	background-color:white;
+	font-size: 24px;   
+	font-family: monospace;
+	margin-top:0%;
+	margine-right:10%;
+	margin-bottom:0%;
+	margin-left:10%;  
+	} 
+	h2{    color:black; 
+	background-color: red; 
+	font-size: 24px;  
+	font-family: monospace;
+	}  
+	h3{    color:teal;
+	background-color:black; 
+	font-size:24px; 
+	font-family: monospace; 
+	}
+	h4{    color:indigo; 
+	font-size:30px;
+	font-family:calibri;
+	}
+	h5{    color:white;  
+	background-color:; 
+	font-size:14px;
+	font-family:sans-serif;  
+	}
+	h6{    color:silver; 
+	font-size:40px;
+	}  
+	h20{color:white;  
+	background-color:black;
+  } 
+	
+	.me-image{  
+	width: 1405px;
+	height: 400px;  }  
+	
+	.foot-image{   
+	width: 350px;  
+	height: 475px;  }  
+	
+	.foot2-image{ 
+	width:350px;   
+	height:475px;  }  
+	
+	.foot3-image{
+	width:350px;  
+	height:250;  }  
+	
+	.ALL-image {  
+	width: 1050px; 
+	height: 400px;  }  
+	
+	.Midas-image{ 
+	width:100px; 
+	lenght:150px;  }  
+	
+	.Pet-Sounds-image{  
+	Width: 150px; 
+	height: 150px;  }  
+	
+	.Sup-Cas-image { 
+	width:150px; 
+	height: 150px;  }  
+	
+	.Failed-image{   
+	width: 150px;    
+	height: 150px;  }  
+	
+	.Mission-image{  
+	width: 150px;    
+	height: 150px;  }  
+	
+	.RVIVR-image{   
+	width: 150px; 
+	height: 150px;  }  
+	
+	.Somery-image{  
+	width: 150px;   
+	height:150px;  }  
+	
+	.ES-image{
+	width:150px; 
+	height: 150px;  }  
+	
+	.Sleep-image{
+	width:150px;  
+	height:150px;  }  
+	
+	.Love-image{  
+	width: 150px; 
+	height:150px;  }  
+	
+	.Revenge-image{
+	width: 150px; 
+	height: 150px;  }  
+	
+	.Mass-image{
+	width:150px;  
+	height:150px;  }  
+	
+	.Left-image{  
+	width:150px; 
+	height:150px;  }  
+	
+	.Recon-image{ 
+	width:150px;  
+	height:150px;  }  
+	
+	.Vee-image{   
+	width:150px;
+	height:150px;  }  
+	
+	.Speed-image{ 
+	width:150px;
+	height:150px;  }  
+	
+	.Let-image{ 
+	width:150px;
+	height:150px;  }  
+	
+	.Stars-image{
+	width:150px;  
+	height:150px;  }  
+	
+	.wiggle-image { 
+	width:150px;
+	height:150px;  }  
+	
+	.brain-image{ 
+	width:150px;
+	height:150px;  }  
+	
+	.valley-image{  
+	width:150px;
+	height:150px;  }  
+	
+	.head-image{  
+	width:150px;
+	height:150px;  }  
+	
+	.show-image{ 
+	width:150px;  
+	height:150px;  }  
+	
+	.tim-image{
+	width:150px;
+	length:150px;  }  
+	
+	.pleased-image{
+	width:150px;  
+	height:150px;  }  
+	
+	.pw-image{ 
+	width:150px; 
+	height:150px;  }  
+	
+	.dear-image{ 
+	width:150px; 
+	height:150px;  }  
+	
+	.red-image{ 
+	width: 150px;
+	height: 150px;  }  
+	
+	.kill-image{  
+	width: 150px;
+	height: 150px;  }  
+	
+	.das-image { 
+	width: 150px; 
+	height: 150px;  }  
+	
+	.thin-black-border {    border-color:black;  
+	border-width: 8px; 
+	border-style: solid;  }
+  
+	ol {    color: silver;  
+	background-color: black;
+	font-size: 18px;}
+	</style>
+<p>
+When I was in elementary school I remember begging my parents for a guitar or a drumset or something to make noise with. That didn't happen. I always fancied the piano at my grandparents house, but I knew nothing of music. I did understand when something sounded nice when I fiddled around on it. I remember writing things and noodling around and every now and then something would sound decent. I would think, "Hey, that sounded like a song." But then, I would fail to be able to recreate my improvision. These moments did not occur on a regular basis. Perhaps that is why I remember the handful so well.</p>
+<p>
+Fast forward to the age of 14 and my first punk rock concert in the summer of '94. It was the Mighty Mighty Bosstones with Face to Face and Jughead's Revenge at the now defunct Edge in Orlando, FL. A buddy of mine who was a few years older than me was going to the show and he knew that I was into rock music. On the drive up I heard all of these songs on a mix tape he had that I had never heard before. (Later, through my own self discovery, I would stumble across one of them on a new record I had just purchased.) The energy, the angst, the passion and crassness really spoke to me. It made me think that there was nothing else in the world that I want to do. I still remember hearing "Suburban Home" by the Descendents for the first time in his late 80's, white Ford Bronco on the drive up to the venue. "Who were these guys? This is incredible!", I thought.  
+<p>   
+That previous school year I had formed a band with some other friends during our 8th grade year. Only one us could play guitar proficiently and another had picked it up quickly on account of the years of taking piano lessons. Our drummer, who I am still close with, convinced his mom to buy him a drumset just to join the band. Which is insane to me in hindsight. I didn't even play anything at this point. I was about to turn 14 and had been an All County Choral singer who had gotten sucked up into the angsty tunes of the early 90's grunge movement. If the scene wasn't one of such open-mindedness at the time, I could easily consider myself a poser. I will point out at this juncture that we didn't even have a bass player. Brett Adison was supposed to be our bass player once he bought one and learned how to play. In fact, we performed (used loosely) for our fellow students during lunch period on the cafeteria stage and at one of the dances. Brett just sat on stage hanging out. It still makes me laugh. We didn't know what we were doing. But some of the other kids thought it was cool.</p>
+<p>
+To make this tale even more ridiculous, we had the worst band names ever. Crown of Thorns, Red Bleach, Red 7, Hellhounds, Sacred Garden...they were awful. Which is probably why we changed it about every week or two. But that is what kids do. Make with the stupid.</p>
+<p>
+Getting back to the punk rock epiphany, I had an amazing time at the show. I slam danced and crowd surfed for the first and felt myself coming out of my shell and into my new skin. The spray painted par can lights beating from above, onto the stage, were like healing rays of sunshine and there was a misting fog slithered between our sweat soaked bodies as I transcended the plain which had been holding me to the ground all these years prior. I knew what I wanted. I wanted to rebel and make noise and laugh loud and scream and share it with my friends. By this point, I had already moved on to like the third incarnation of our first band. That's the thing about kids. They get bored quickly, aren't afraid to tell you, and will replace who ever and whatever to suit their needs. We were rather unforgiving many times. We just didn't know how to make work what we wanted to make work. There was no manual for growing up. Especially, no manual for growing out. Which is what we were trying to do by seeking out our creative voices.</p>
+<p>
+I began teaching myself how to play guitar at 15. I joined and formed various new musical projects/bands over the years; constantly seeking to find a sound and style that I could consider my own. Each new endeavor taught me something new about writing, about playing, and about people. I learned that just because you are great friends with someone it doesn't mean that you should be in a group together. I've ruined or tainted a few of those making that mistake over the years. I think that sort of dispells the theory about best friends making the best relationships. It's a wonderful theory, but so is the potential for a 2 dimensional cartoon-like, alternate universe. It would probably suck. I was always intrigued by the structuring of a song and looking at each composition as a way to improve as a player. I used this approach of pushing the envelope for the better length of twenty years; much to the detriment of ever being able to achieve any level of 4 chord, quiet verse/loud chorus acclaim or success. You never get paid well from too far outside the box. This is okay though. Monetary success always seemed like a perk of the job, if you could make it a job. And I've known people on both sides with differing opinions than my own on the matter. So I'll just say that none of us are absolutely correct.</p>
+<p>
+I was always a sucker for a catchy melody or hook and managed to develop my own style of playing guitar by having to maintain rhythm progressions with lead licks thrown on top on them. Years of playing in trios made this an essential reality. This melody thing is something in punk rock that is often overlooked or takes the backseat. At least in the early days. There was a time when it seemed like melodic or pop punk was the only thing that people were churning out. There is always some angsty, teenage girl looking to piss her parents off while simultaneously quenching her thirst to understand what it means to feel love through popular music. That was what the 90's did for a lot of us. With grunge and indie and emo all being off shoots of their punk epicenter with these genres, people began to explore those emotions or feelings in a way that wasn't Motley Crue fronted by Springstein playing Madonna tunes. It was a movement that didn't care what you had to say while encouraging you to say it.  Everyone isn't going to be something great or original or prolific. But somebody is. And if it is you, kudos. But there is no way to find out unless you speak up and play out. This was the way I looked at things in retrospect. I wanted to be great. I wanted to be prolific. I wanted to be orginal. I can confess this now. Now that none of it really matters much to the grand scheme of things. It taught me to push myself though and to not ever think that where you are is where you are supposed to be forever. In all aspects of life, love, and geography.
+<h3> The concept of 
+<div>
+<a href="https://www.youtube.com/watch?v=L9jBHHqJ5FQ"><img   class="ALL-image thin-black-border"   alt="ALL picture"              src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Descendents_-_All_cover.jpg/220px-Descendents_-_All_cover.jpg"></a>  
+</div>  
+</h3>
+<p>  
+Aside from the unapologetic, anything goes ethos of punk rock, the discovery of the concept of ALL by the Descendents was probably the single most important driving force behind my approach to writing and playing. The idea that there was always a next level to achieve and to be the best at the level you were at within your skillset was eye opening to say the least. I used it as an opportunity to look beyond the basic arrangements and formulas and rules that create the theorem for song composition. I took the challenge of creating seamless key changes that were virtually invisible to heart. I fell in love with the idea of writing a moderate piece and then adding various nuances to make it more complicated through odd resting counts and linear patterns that changed when repeated. All the while trying to belt out lyrics of significant, personal thoughts or meaningless jabber. It was about playing fast and squeezing as much into each measure without it being oversaturated. It was about knowing when to back off. My favorite place was often the spaces inbetween the notes.</p><div>  
+<p> 
+The writing process for me happens a few different ways. I either noodle around on the instrument I am choosing to write on at the time and when something catches my attention I follow it. Other times I hear something in my head and then find it on the guitar neck. Rarely do I write a song in a single sitting. I will take my time letting the parts develop organically and avoid trying to force it. Sometimes though, I will sit down and write a complete song, meaning lyrics, music, and arrangement, in like 30 minutes to an hour. Those are usually what I consider gem songs. It's like mining for audio gold and figuratively pulling it out of the expanse of thin air. Often I will make recording of pieces to give myself references for the future. It can be pretty difficult to remember everything and the way it is played. I have a ridiculous number of licks and hooks and partial song pieces just sitting there on my PC and my iPhone and other recording devices. It's like I'm a hoarder of ideas and melodies. Here's a look at how the writing process for me was for so many years. Just pen and paper and a place to sit alone.</p>  
+<div>     
+<a href="#"> <img class="foot-image" alt="footer" src="https://scontent.xx.fbcdn.net/v/t1.0-9/533436_2088796437638_43451949_n.jpg?oh=2c32b6c59486bdf4ec0ea7dbb8af51ed&oe=58BCFCB1"></a>
+      
+			<a href="#"> <img class="foot2-image" alt="footer2" src="https://scontent.xx.fbcdn.net/v/t1.0-9/15356707_10202660078821268_2897412293865545802_n.jpg?oh=5751564ba5aee775a14c67f103b4389d&oe=58B7FA78"></a>
+      
+			<a href="#"> <img class="foot3-image" alt="footer3" src="https://scontent.xx.fbcdn.net/v/t1.0-9/15492431_10202660078741266_1326015783506838838_n.jpg?oh=885b4ea842eb665c71139c13f3d61d64&oe=58FCBCD8"> </a>
+			</div>
+<b> 
+<a href="https://www.youtube.com/watch?v=1S63vC-aEsI"> <img  class="Midas-image" alt="Midas In Reverse" src="https://scontent.xx.fbcdn.net/v/t1.0-9/166443_478549205980_6964712_n.jpg?oh=6f43137c799903e84b194dddac119979&oe=58B095E1"></a>  </b>  
+</div>
+<p6>  Here's an old video from 2008 of a song called "Ironic Fist" that was </p6><div>
+<p7>recorded by someone at our show. The sound quality isn't the best,</p7><div>
+<p8> but it gives a general idea of melody and grit and breaks with regard to my writing style.</p8>  
+</div>
+<p>
+I fronted and wrote for the same three piece for around 15 years. We were called Midas In Reverse for a majority of those years, until we began writing stuff that was a bit more forward progressive punk. I decided a name change was in order at that point and we changed the band's name to Lesser Humans. I had worked for many years to reach the level of musicianship I was at when we decided to put that band to rest. Which made me more at piece regarding the decision. I had achieved a goal I had set out for in my mind several years before. I think that is how so many of the bands I love that have broken up go out. They reach this apex or record this amazing album and it is like there is nowhere else to go. This wasn't entirely the case with the dissolving of our group. Work pulled me away from being able to continue in the fashion that we needed to in order to reach the next level. But I can romanticize the demise just a smidge, if I want. <div>
+<p>  
+Here's a few tunes from the Midas In Reverse days that showcase the extremes between soft, pop, and hardcore. I always felt like we were this weird fusion of punk and jazz with hints of pop and metal thrown in. I believe this to be the reason that other bands and musicians always loved what we did, but it sort of stopped there. Once we started doing the progressive punk stuff more exclusively the crowd response grew exponentially. So I suppose it was nice to walk off stage one last time to the disappointed sighs of strangers in the audience who'd just discovered us. Given the collective mentality of the three of us all those years, it was pretty ironic and amusing looking back at it now.</p>  
+<div>
+<iframe width="25%" height="175" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297395824&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    
+		<iframe width="25%" height="175" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297396188&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    
+		<iframe width="25%" height="175" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297415811&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>   
+		
+		<iframe width="24%" height="175" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297399693&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    <div>
+		<iframe width="49.8%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297406197&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+<iframe width="49.8%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297395366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><div>  
+<p4> 
+I have also worked on solo stuff that was a bit more subdued. The two tracks above (The Devil's Lullaby & Prior Memory) were from a project I was working on back in 2013. The idea behind it was to take the demos from this session and do a record where I enlisted the playing talents of various musician friends I had and get them to record them with me. This is still an idea, but unlikely to pan out as originally planned bc everyone has spread out around the country now.    </p4>
+<div>
+<p> 
+Currently, I have been working on a project tentatively called "Could've" with my buddy in San Francisco. It's a more poetic, post-punk, alt-rock sort of thing with stripped down playing and pop sensibilities. I hadn't written basic open chord songs in a very long time and this project was an effort to reacquaint myself with that side of writing; then, build up the internal pieces to the shell. Maybe add a little gloss to the exterior to make it pop a bit. I'm not sure where I see it going. I'm just content with writing songs that have a vulnerable honesty I shyed away from most of the time. I believe that I always told myself that if there wasn't too much substance, then it was less of a disappointment when it didn't pan out the way you'd like it to.    
+<div>
+<p>
+I think that maturity changes that in you. I've failed and succeeded enough to know that I won't be affected by it the way I thought I would be when I was younger. A scar inside a scar still looks just like a scar. You can't hurt it more than it already has been. The same goes for success. If you polish something too long, eventually you'll rub away the shine. I think that finally being able to find the balance and have fun while still challenging myself to write tunes that I dig without the delusional pressures of youth is a blessing. Being aware of it, is a blessing. Understanding that what you do isn't for everyone, is a blessing. I'm just happy it didn't take me a lifetime to figure that out.    </p>
+<div>
+<p5> Ever hear the question, "Which 10 albums would you take with you, if you were</p5><div>
+<p9> going to have to live on a deserted island?" Well, here is my answer to that </p9><div>
+<p10>question. Each one of them has their own endearing qualities that would make the</p10><div>
+<p11> solitude of a desert island feel a bit less lonely to me. Each album cover is a </p11><div>
+<p12>link to either the entire album or a track from it. Enjoy!    </p12><div>  
+<p2> Top 10(or more) Albums Desert Island Playlist</p2>
+<div>
+<p13> (in no particular order)  </p13></div>
+<p15>
+<div>  
+<a href="https://www.youtube.com/watch?v=T0spkrwl9Qk&list=PLW79q83govkXJJBEnMnlvJ7B1b3xPosvO"><img class="Pet-Sounds-image thin-black-border" alt="PS cover" src="https://upload.wikimedia.org/wikipedia/en/b/bb/PetSoundsCover.jpg"></a> 
+</div>
+1. Beach Boys - Pet Sounds </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=Vrk88EYv4o8"><img class="Sup-Cas-image thin-black-border" alt="Supporting Caste cover" src="https://upload.wikimedia.org/wikipedia/en/c/c5/Propagandhi_-_Supporting_Caste_cover.jpg"></a>    
+<a href="https://www.youtube.com/watch?v=xuWJ4kCYGP4"><img class="Failed-image thin-black-border" alt="Failed States cover"  src="https://upload.wikimedia.org/wikipedia/en/3/3e/Propagandhi_-_Failed_States_cover.jpg"></a> <div></p15>
+<p15> 
+2. Propagandhi - Supporting Cast(e) or Failed States </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=Bweb8aq_7bU&list=PLOZE-UPl35yYHHwAkxCsxGQurslDyPpnF&index=2"><img class="Mission-image thin-black-border" alt="MC" src="https://upload.wikimedia.org/wikipedia/en/6/6e/Burning_Airlines_-_Mission-_Control%21_%28Album_Cover%29.jpg"></a><div>      </p15>
+<p15> 
+3. Burning Airlines - Mission: Control! </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=1FFp29FGn0o"><img class="RVIVR-image thin-black-border" alt="RVIVR" src="http://f0.bcbits.com/img/a0245238734_10.jpg"></a> <div> </p15>
+<p15> 
+4. RVIVR - The Beauty Between</div>
+<div>    
+<a href="https://www.youtube.com/watch?v=4_vCs6a5njs"><img class="Somery-image thin-black-border" alt="Somery" src="https://upload.wikimedia.org/wikipedia/en/b/b9/Descendents_-_Somery_cover.jpg"></a>    
+<a href="https://www.youtube.com/watch?v=s2p0ajIHovk"><img class="ES-image thin-black-border" alt="Sucks" src="https://upload.wikimedia.org/wikipedia/en/1/1e/Descendents_-_Everything_Sucks_cover.jpg"> </a><div> </p15> 
+<p15> 
+5. Descendents - Somery or Everything Sucks</div>
+<div>    
+<a href="https://www.youtube.com/watch?v=mkFPwDYZYHo&list=PLB93B2C49C758DB2E"> <img class="Sleep-image thin-black-border" alt="Sleep" src="http://ecx.images-amazon.com/images/I/61FaodGN4KL.jpg"></a>    
+<a href="https://www.youtube.com/watch?v=VbZw-MuLMRI&list=PLcZMZxR9uxC-ICayERuEqFpiNes2VqD2Y"> <img class="Love-image thin-black-border" alt="love" src="https://images-na.ssl-images-amazon.com/images/I/61XfwEzo1gL.jpg"></a><div> </p15>
+<p15> 
+6. Frank Turner - Sleep is for the Week or Love, Ire and Song</div>
+<div>    
+<a href="https://www.youtube.com/watch?v=XelG7seaej4"> <img class="Revenge-image thin-black-border" alt="Revenge" src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/All_-_Allroy's_Revenge_cover.jpg/220px-All_-_Allroy's_Revenge_cover.jpg"></a>    
+<a href="https://www.youtube.com/watch?v=9vy5RZ307L8"> <img class="Mass-image thin-black-border" alt="Mass Nerder"             src="https://upload.wikimedia.org/wikipedia/en/thumb/8/81/All_-_Mass_Nerder_cover.jpg/220px-All_-_Mass_Nerder_cover.jpg"> </a> <div> </p15>  
+<p15> 
+7. ALL - Allroy's Revenge or Mass Nerder </div>
+<div> <a href="https://www.youtube.com/watch?v=rGkSNQ2AB7k&list=PL2B3159DA9B3E7D5C"> <img class="Left-image thin-black-border" alt="left" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/The_Weakerthans_-_Left_and_Leaving_cover.jpg/220px-The_Weakerthans_-_Left_and_Leaving_cover.jpg"> </a>    
+<a href="https://www.youtube.com/watch?v=x384mhNoEWE&list=PLfmKKW4Lh726XD36Jz7mg9oafhBchklaT"> <img class="Recon-image thin-black-border" alt="Reconstruction" src="http://www.sputnikmusic.com/images/albums/2350.jpg"> </a> <div> </p15>
+<p15> 
+8. Weakerthans - Left and Leaving or Reconstruction Site </div>
+<div>   
+<a href="https://www.youtube.com/watch?v=p8heCttqF3E&list=PLocz-REzfWC04mte0TDvKljRCrwZ1HiEK"> <img class="Vee-image thin-black-border" alt="Vee Vee" src="https://upload.wikimedia.org/wikipedia/en/c/c8/Vee_Vee_(Archers_of_Loaf_album_-_cover_art).jpg"> </a>    
+<a href="https://www.youtube.com/watch?v=84xbV1cgoTU&list=PLYSbjNas5eDge2LqeKgpcs1PpDtenk8l8"> <img class="Speed-image thin-black-border" alt="Speed" src="http://direct-ns.rhap.com/imageserver/v2/albums/Alb.206469/images/500x500.jpg"> </a> <div> </p15> 
+<p15>      
+9. Archers of Loaf - Vee Vee or Speed of Cattle</div>
+<div>    
+<a href="https://www.youtube.com/watch?v=L06x1Ee6Ct4"> <img class="Let-image thin-black-border" alt:"Let Go" src="http://www.nadasurf.com/wp-content/uploads/2012/02/Let_go_by_nada_surf.jpg"></a>    
+<a href="https://www.youtube.com/watch?v=honovfwgL9s&list=PLiTx2GwshracAcU5mGN_2p1tSHpojVNXr"> <img class="Stars-image thin-black-border" alt="Stars" src="http://img3.cityslang.com/cache//13/13/c_2000x2000x375197x1326239405xNadaSurfCoverWEB.jpg"> </a> <div> </p15> 
+<p15>      
+10. Nada Surf - Let Go or The Stars Are Indifferent to Astronomy</div>       
+</p15>
+<p2>  Honorable Mentions </p2>
+<div>
+<a href="https://www.youtube.com/watch?v=Wy5AC0wgwio"> <img class="wiggle-image thin-black-border" alt="Wiggle" src="https://upload.wikimedia.org/wikipedia/en/d/d1/Screechingweaselwiggle.jpg"></a>    
+<a href="https://www.youtube.com/watch?v=wUt_Ubiivws"> <img class="brain-image thin-black-border" alt="My Brain Hurts" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Screeching_Weasel_-_My_Brain_Hurts.jpg/220px-Screeching_Weasel_-_My_Brain_Hurts.jpg"></a>    
+<div>
+<p15>    
+11. Screeching Weasel - Wiggle or My Brain Hurts </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=-fAHYbk9TiY"> <img class="valley-image thin-black-border" alt="Superdrag" src="https://upload.wikimedia.org/wikipedia/en/b/b9/Superdrag-Dying_Stars.jpg"></a> <div> </p15>    
+<p15>      
+12. Superdrag - In The Valley of Dying Stars </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=VdeVnJrs6Qc"> <img class="head-image thin-black-border" alt="Head On the Door" src="https://upload.wikimedia.org/wikipedia/en/6/64/The_Cure_-_The_Head_on_the_Door.jpg"> </a>    
+<a href="https://www.youtube.com/watch?v=EVOSPb9B1SU"> <img class="show-image thin-black-border" alt="Show" src="https://upload.wikimedia.org/wikipedia/en/b/b8/CureDisintegration.jpg"> </a> <div> </p15>      
+<p15>        
+13. The Cure - Head on the Door or Disintegration </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=O83lBVtlb-s"> <img class="tim-image thin-black-border" alt="Tim" src="https://fanart.tv/fanart/music/dc0d05ce-2f47-4962-b4fa-8631a0a51987/albumcover/tim-51695fa9ed565.jpg">  </a>    
+<a href="https://www.youtube.com/watch?v=sTSJYZyouek"> <img class="pleased-image thin-black-border" alt="Pleased to Meet Me" src="https://upload.wikimedia.org/wikipedia/en/f/f4/The_Replacements_-_Pleased_to_Meet_Me_cover.jpg"> </a> <div> </p15>     
+<p15>      
+14. The Replacements - Tim or Pleased to Meet Me</div>
+<div>    
+<a href="https://www.youtube.com/watch?v=PUYvkGUEFtQ"> <img class="pw-image thin-black-border" alt="Stereo" src="http://cdn3.pitchfork.com/albums/8489/homepage_large.c527eefd.jpg"> </a> <div> </p15>      
+<p15>15. Paul Westerberg - Stereo disc 1 </div>
+<div>    
+<a href="https://www.youtube.com/watch?v=NcJg3Kea-zk"> <img class="dear-image thin-black-border" alt="Dear You" src="http://www.vinyliciousrecords.com/cms/oogiemusic/uploads/2015/11/MI0002520415.jpg"> </a> <div> </p15>      
+<p15>    
+16. Jawbreaker - Dear You </div>
+<div> 
+</p15>
+<a href="https://www.youtube.com/watch?v=n9ahnd83sOY"> <img class="red-image thin-black-border" alt="Red Medicine" src="https://upload.wikimedia.org/wikipedia/en/0/0e/Fugazi_-_Red_Medicine_cover.jpg"></a>      
+<a href="https://www.youtube.com/watch?v=v8Pf1jwMCuo"> <img class="kill-image thin-black-border" alt="In On the Kill Taker" src="http://i.ytimg.com/vi/v8Pf1jwMCuo/hqdefault.jpg"> </a> <div>    
+<p15>      
+17. Fugazi - Red Medicine or In On the Kill Taker </div>
+<div>
+</p15>
+<a href="https://www.youtube.com/watch?v=E0CpS6b3wzA"> <img class="das-image thin-black-border" alt="Dead Serious"src="https://lh4.googleusercontent.com/proxy/Ukub_OzMT71300yEJfEsx3H5P7D_EZTQrxZ6YUUzvPFQW09uf8291cruk0k_Gdh6M3_XsW4fK57gEsXIKE5q9WcKdRMkccuDsg=w1200-h630-p-nu"> </a> <div>      
+<p15>        
+18. Das EFX - Dead Serious</div>
+<div>      
+</p15>
